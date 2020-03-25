@@ -1,0 +1,40 @@
+QuorumOperationOrchestratorJob:
+  Db:
+    LogsConnString:
+      settings-key: QuorumOperationOrchestratorJob-LogsConnString
+      types:
+        - AzureTableStorage
+  OperationsPeriodicalHandler:
+    IdlePeriod:
+      settings-key: QuorumOperationOrchestratorJob-OperationsHandlerIdlePeriod
+    MaxDegreeOfParallelism:
+      settings-key: QuorumOperationOrchestratorJob-MaxDegreeOfParallelism
+    MaxFailuresPerAddress:
+      settings-key: QuorumOperationOrchestratorJob-MaxFailuresPerAddress
+    CleanAddressesWithFailuresTimespan:
+      settings-key: QuorumOperationOrchestratorJob-CleanAddressesWithFailuresTimespan
+  HangedOperationsPeriodicalHandler:
+    IdlePeriod:
+      settings-key: QuorumOperationOrchestratorJob-HangedOperationsHandlerIdlePeriod
+    AcceptedOperationsWarningTimeout:
+      settings-key: QuorumOperationOrchestratorJob-AcceptedOperationsWarningTimeout
+PrivateBlockchainFacadeService:
+    ServiceUrl :
+        settings-key: PrivateBlockchainFacadeServiceUrl
+    ApiKey:
+        settings-key: PrivateBlockchainFacadeService-ApiKey
+QuorumOperationExecutorService:
+    ServiceUrl :
+        settings-key: QuorumOperationExecutorServiceUrl
+SlackNotifications:
+    AzureQueue:
+        ConnectionString:
+            settings-key: SlackNotificationsConnString
+            types:
+                - AzureTableStorage
+        QueueName:
+            settings-key: SlackQueueName
+MonitoringServiceClient:
+    MonitoringServiceUrl:
+        settings-key: MonitoringServiceUrl
+
