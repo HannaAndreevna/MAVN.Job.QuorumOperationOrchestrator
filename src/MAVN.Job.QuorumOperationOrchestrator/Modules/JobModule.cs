@@ -8,8 +8,8 @@ using MAVN.Job.QuorumOperationOrchestrator.Services;
 using MAVN.Job.QuorumOperationOrchestrator.Settings;
 using Lykke.Sdk;
 using Lykke.Sdk.Health;
-using Lykke.Service.PrivateBlockchainFacade.Client;
-using Lykke.Service.QuorumOperationExecutor.Client;
+using MAVN.Service.PrivateBlockchainFacade.Client;
+using MAVN.Service.QuorumOperationExecutor.Client;
 using Lykke.SettingsReader;
 
 namespace MAVN.Job.QuorumOperationOrchestrator.Modules

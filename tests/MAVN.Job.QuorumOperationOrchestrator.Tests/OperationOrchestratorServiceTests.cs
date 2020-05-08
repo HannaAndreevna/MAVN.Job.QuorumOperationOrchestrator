@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 using MAVN.Job.QuorumOperationOrchestrator.DomainServices;
 using Lykke.Logs;
 using Lykke.Logs.Loggers.LykkeConsole;
-using Lykke.Service.PrivateBlockchainFacade.Client;
-using Lykke.Service.PrivateBlockchainFacade.Client.Models;
-using Lykke.Service.QuorumOperationExecutor.Client;
-using Lykke.Service.QuorumOperationExecutor.Client.Models.Requests;
-using Lykke.Service.QuorumOperationExecutor.Client.Models.Responses;
+using MAVN.Service.PrivateBlockchainFacade.Client;
+using MAVN.Service.PrivateBlockchainFacade.Client.Models;
+using MAVN.Service.QuorumOperationExecutor.Client;
+using MAVN.Service.QuorumOperationExecutor.Client.Models.Requests;
+using MAVN.Service.QuorumOperationExecutor.Client.Models.Responses;
 using Moq;
 using Xunit;
 

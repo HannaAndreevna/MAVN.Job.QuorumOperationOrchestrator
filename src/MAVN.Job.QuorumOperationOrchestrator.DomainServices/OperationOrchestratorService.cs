@@ -7,10 +7,10 @@ using Lykke.Common.Log;
 using MAVN.Job.QuorumOperationOrchestrator.Domain;
 using MAVN.Job.QuorumOperationOrchestrator.Domain.Models;
 using MAVN.Job.QuorumOperationOrchestrator.Domain.Services;
-using Lykke.Service.PrivateBlockchainFacade.Client;
-using Lykke.Service.QuorumOperationExecutor.Client;
-using Lykke.Service.QuorumOperationExecutor.Client.Models.Requests;
-using Lykke.Service.QuorumOperationExecutor.Client.Models.Responses;
+using MAVN.Service.PrivateBlockchainFacade.Client;
+using MAVN.Service.QuorumOperationExecutor.Client;
+using MAVN.Service.QuorumOperationExecutor.Client.Models.Requests;
+using MAVN.Service.QuorumOperationExecutor.Client.Models.Responses;
 
 namespace MAVN.Job.QuorumOperationOrchestrator.DomainServices
 {

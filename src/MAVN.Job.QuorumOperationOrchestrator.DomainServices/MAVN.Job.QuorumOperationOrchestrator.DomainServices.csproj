@@ -4,8 +4,8 @@
     <Version>1.0.0</Version>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Falcon.Service.PrivateBlockchainFacade.Client" Version="2.3.0" />
-    <PackageReference Include="Falcon.Service.QuorumOperationExecutor.Client" Version="1.6.0" />
+    <PackageReference Include="MAVN.Service.PrivateBlockchainFacade.Client" Version="1.0.1" />
+    <PackageReference Include="MAVN.Service.QuorumOperationExecutor.Client" Version="1.1.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MAVN.Job.QuorumOperationOrchestrator.Domain\MAVN.Job.QuorumOperationOrchestrator.Domain.csproj" />
