@@ -1,7 +1,7 @@
 using MAVN.Job.QuorumOperationOrchestrator.Settings.JobSettings;
 using Lykke.Sdk.Settings;
-using Lykke.Service.PrivateBlockchainFacade.Client;
-using Lykke.Service.QuorumOperationExecutor.Client;
+using MAVN.Service.PrivateBlockchainFacade.Client;
+using MAVN.Service.QuorumOperationExecutor.Client;
 
 namespace MAVN.Job.QuorumOperationOrchestrator.Settings
 {
